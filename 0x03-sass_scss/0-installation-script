@@ -1,0 +1,4 @@
+My Steps to installing SASS :
+1.Inside the alx-intermediate-frontend repository, I created a new directory called 0x03-sass_scss
+2.Inside the directory I Installed SASS by using the following command:
+npm install sass -v 3.7.4
