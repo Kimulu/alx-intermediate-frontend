@@ -1,0 +1,14 @@
+// Define the mixin
+@mixin set-horizontal-margin($value) {
+  margin-left: $value;
+  margin-right: $value;
+}
+
+// Use the mixin in selectors
+body {
+  @include set-horizontal-margin(10px);
+}
+
+div {
+  @include set-horizontal-margin(15px);
+}
